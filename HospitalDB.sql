@@ -145,9 +145,6 @@ CREATE TABLE Detalles_Factura (
     precio_unitario DECIMAL(10, 2) NOT NULL,
     FOREIGN KEY (factura_id) REFERENCES Facturas(factura_id)
 );
--- Crear la base de datos
-CREATE DATABASE HospitalDB;
-USE HospitalDB;
 
 -- Tabla de Pacientes
 CREATE TABLE Pacientes (
